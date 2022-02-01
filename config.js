@@ -11,7 +11,7 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'Ragu',
   imageBackground: false,
   openInNewTab: true,
   twelveHourFormat: false,
@@ -23,24 +23,24 @@ const CONFIG = {
   greetingNight: 'Go to Sleep!',
 
   // Weather
-  weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+  weatherKey: 'da5b88a829ebf0cce5964530de3d9c39', // Write here your API Key
   weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
   weatherUnit: 'C', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
-  trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
+  defaultLatitude: '12.2958',
+  defaultLongitude: '76.6393',
 
   // Autochange
   autoChangeTheme: true,
 
   // Autochabge by OS
-  changeThemeByOS: false, 
+  changeThemeByOS: false,
 
   // Autochange by hour options (24hrs format, string must be in: hh:mm)
   changeThemeByHour: true,
-  hourDarkThemeActive: '18:30',
+  hourDarkThemeActive: '18:00',
   hourDarkThemeInactive: '07:00',
 
   // ┌─┐┌─┐┬─┐┌┬┐┌─┐
@@ -59,31 +59,25 @@ const CONFIG = {
       id: '2',
       name: 'Mail',
       icon: 'mail',
-      link: 'https://mail.protonmail.com/',
+      link: 'https://mail.google.com/',
     },
     {
       id: '3',
-      name: 'Todoist',
-      icon: 'trello',
-      link: 'https://todoist.com',
+      name: 'YouTube',
+      icon: 'youtube',
+      link: 'https://youtube.com',
     },
     {
       id: '4',
-      name: 'Calendar',
-      icon: 'calendar',
-      link: 'https://calendar.google.com/calendar/r',
-    },
-    {
-      id: '5',
       name: 'Reddit',
       icon: 'glasses',
       link: 'https://reddit.com',
     },
     {
-      id: '6',
-      name: 'Odysee',
-      icon: 'youtube',
-      link: 'https://odysee.com/',
+      id: '5',
+      name: 'Linkedin',
+      icon: 'linkedin',
+      link: 'https://linkedin.com/',
     },
   ],
 
@@ -92,45 +86,45 @@ const CONFIG = {
   // ┴─┘┴└─┘ ┴ └─┘
 
   //Icons
-  firstListIcon: 'music',
-  secondListIcon: 'coffee',
+  firstListIcon: 'coffee',
+  secondListIcon: 'folder',
 
   // Links
   lists: {
     firstList: [
       {
-        name: 'Inspirational',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Arch Wiki',
+        link: 'https://wiki.archlinux.org/',
       },
       {
-        name: 'Classic',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Rust',
+        link: 'https://doc.rust-lang.org/book/',
       },
       {
-        name: 'Oldies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Calendar',
+        link: 'https://calendar.google.com/calendar/r',
       },
       {
-        name: 'Rock',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Search with Google',
+        link: 'https://www.google.com/search?q=',
       },
     ],
     secondList: [
       {
-        name: 'Linkedin',
-        link: 'https://linkedin.com/',
+        name: 'Opengrok',
+        link: 'https://tegra-sw-opengrok.nvidia.com/source/xref/ndas-main/',
       },
       {
-        name: 'Figma',
-        link: 'https://figma.com/',
+        name: 'GVS submission',
+        link: 'http://testbot.nvidia.com/testbot/view/content/gvs2/createSubmission.jsf',
       },
       {
-        name: 'Dribbble',
-        link: 'https://dribbble.com',
+        name: 'Jira',
+        link: 'https://jirasw.nvidia.com/secure/RapidBoard.jspa?rapidView=26350&quickFilter=49184',
       },
       {
-        name: 'Telegram',
-        link: 'https://webk.telegram.org',
+        name: 'Confluence',
+        link: 'https://confluence.nvidia.com/display/DS/DWSensors',
       },
     ],
   },
