@@ -13,7 +13,7 @@ const CONFIG = {
   // General
   name: 'Ragu',
   imageBackground: false,
-  openInNewTab: true,
+  openInNewTab: false,
   twelveHourFormat: false,
 
   // Greetings
@@ -103,11 +103,7 @@ const CONFIG = {
       {
         name: 'Calendar',
         link: 'https://calendar.google.com/calendar/r',
-      },
-      {
-        name: 'Search with Google',
-        link: 'https://www.google.com/search?q=',
-      },
+      }
     ],
     secondList: [
       {
@@ -115,17 +111,21 @@ const CONFIG = {
         link: 'https://tegra-sw-opengrok.nvidia.com/source/xref/ndas-main/',
       },
       {
-        name: 'GVS submission',
-        link: 'http://testbot.nvidia.com/testbot/view/content/gvs2/createSubmission.jsf',
+        name: 'Gerrit Dashboard',
+        link: 'https://git-av.nvidia.com/r/dashboard/self',
       },
       {
         name: 'Jira',
-        link: 'https://jirasw.nvidia.com/secure/RapidBoard.jspa?rapidView=26350&quickFilter=49184',
+        link: 'https://jirasw.nvidia.com/secure/RapidBoard.jspa?rapidView=30842&projectKey=APPSIM&view=planning&issueLimit=100',
       },
       {
-        name: 'Confluence',
-        link: 'https://confluence.nvidia.com/display/DS/DWSensors',
+        name: 'Colossus',
+        link: 'https://colossus.nvidia.com/web/index.html#/lease',
       },
+      {
+        name: 'Trigger WF from Jenkins',
+        link: 'https://blossom.nvidia.com/sw-mobile-av-jenkins/job/ndas/job/drivebehavior/job/on-demand/job/generic/build?delay=0sec',
+      }
     ],
   },
 };
